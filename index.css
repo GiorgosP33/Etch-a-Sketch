@@ -1,3 +1,16 @@
-.childs{
-    border: 1px black;
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+}
+
+.square {
+    width: 60px; /* Adjust based on the number of squares per side */
+    height: 60px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.square:hover {
+    background-color: #000;
 }
